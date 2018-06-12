@@ -1,0 +1,31 @@
+<html>
+<head></head>
+
+<body>
+
+  <h3>Grocery Categories</h3>
+  <input type="text" id="groceryCategoryTextBox"/>
+  <button id="btnSave">Save</button>
+
+  <ul id="groceryCategoriesList">
+  </ul>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAjQKDwd6UOY0kf6WW7BXIH2hNP86sN1gg",
+    authDomain: "grocery-store-list.firebaseapp.com",
+    databaseURL: "https://grocery-store-list.firebaseio.com",
+    projectId: "grocery-store-list",
+    storageBucket: "grocery-store-list.appspot.com",
+    messagingSenderId: "634010420888"
+  };
+  firebase.initializeApp(config);
+  var database = firebase.database()
+</script>
+
+<script src="site.js"></script>
+</html>

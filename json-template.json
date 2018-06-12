@@ -1,0 +1,9 @@
+{
+  "stores" : [
+    {"store" : "Walmart",
+      "items" : ["milk", "eggs", "cereal"]
+    },
+    {"store" : "Kroger",
+      "items" : ["bacon", "bread", "fish"]
+    }]
+}
